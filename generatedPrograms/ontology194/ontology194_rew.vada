@@ -1,0 +1,264 @@
+@output("qout_1").
+@bind("qout_1","csv","generatedPrograms/ontology194/outputCsv/","qout_1_csv.csv").
+@input("edb_5").
+@bind("edb_5","csv","generatedPrograms/ontology194/inputCsv/","edb_5_csv.csv").
+@mapping("edb_5",0,"arg_0","int").
+@mapping("edb_5",1,"arg_1","int").
+@mapping("edb_5",2,"arg_2","int").
+@mapping("edb_5",3,"arg_3","int").
+@input("edb_43").
+@bind("edb_43","csv","generatedPrograms/ontology194/inputCsv/","edb_43_csv.csv").
+@mapping("edb_43",0,"arg_0","int").
+@mapping("edb_43",1,"arg_1","int").
+@mapping("edb_43",2,"arg_2","int").
+@mapping("edb_43",3,"arg_3","int").
+@input("edb_59").
+@bind("edb_59","csv","generatedPrograms/ontology194/inputCsv/","edb_59_csv.csv").
+@mapping("edb_59",0,"arg_0","int").
+@mapping("edb_59",1,"arg_1","int").
+@mapping("edb_59",2,"arg_2","int").
+@mapping("edb_59",3,"arg_3","int").
+@input("edb_44").
+@bind("edb_44","csv","generatedPrograms/ontology194/inputCsv/","edb_44_csv.csv").
+@mapping("edb_44",0,"arg_0","int").
+@mapping("edb_44",1,"arg_1","int").
+@input("edb_71").
+@bind("edb_71","csv","generatedPrograms/ontology194/inputCsv/","edb_71_csv.csv").
+@mapping("edb_71",0,"arg_0","int").
+@mapping("edb_71",1,"arg_1","int").
+@mapping("edb_71",2,"arg_2","int").
+@input("edb_66").
+@bind("edb_66","csv","generatedPrograms/ontology194/inputCsv/","edb_66_csv.csv").
+@mapping("edb_66",0,"arg_0","int").
+@mapping("edb_66",1,"arg_1","int").
+@mapping("edb_66",2,"arg_2","int").
+@mapping("edb_66",3,"arg_3","int").
+@input("edb_51").
+@bind("edb_51","csv","generatedPrograms/ontology194/inputCsv/","edb_51_csv.csv").
+@mapping("edb_51",0,"arg_0","int").
+@mapping("edb_51",1,"arg_1","int").
+@mapping("edb_51",2,"arg_2","int").
+@input("edb_54").
+@bind("edb_54","csv","generatedPrograms/ontology194/inputCsv/","edb_54_csv.csv").
+@mapping("edb_54",0,"arg_0","int").
+@mapping("edb_54",1,"arg_1","int").
+@mapping("edb_54",2,"arg_2","int").
+@mapping("edb_54",3,"arg_3","int").
+@input("edb_74").
+@bind("edb_74","csv","generatedPrograms/ontology194/inputCsv/","edb_74_csv.csv").
+@mapping("edb_74",0,"arg_0","int").
+@mapping("edb_74",1,"arg_1","int").
+@mapping("edb_74",2,"arg_2","int").
+@mapping("edb_74",3,"arg_3","int").
+@input("edb_77").
+@bind("edb_77","csv","generatedPrograms/ontology194/inputCsv/","edb_77_csv.csv").
+@mapping("edb_77",0,"arg_0","int").
+@mapping("edb_77",1,"arg_1","int").
+@mapping("edb_77",2,"arg_2","int").
+@mapping("edb_77",3,"arg_3","int").
+@input("edb_40").
+@bind("edb_40","csv","generatedPrograms/ontology194/inputCsv/","edb_40_csv.csv").
+@mapping("edb_40",0,"arg_0","int").
+@mapping("edb_40",1,"arg_1","int").
+@input("edb_83").
+@bind("edb_83","csv","generatedPrograms/ontology194/inputCsv/","edb_83_csv.csv").
+@mapping("edb_83",0,"arg_0","int").
+@mapping("edb_83",1,"arg_1","int").
+@mapping("edb_83",2,"arg_2","int").
+@input("edb_11").
+@bind("edb_11","csv","generatedPrograms/ontology194/inputCsv/","edb_11_csv.csv").
+@mapping("edb_11",0,"arg_0","int").
+@mapping("edb_11",1,"arg_1","int").
+@input("edb_79").
+@bind("edb_79","csv","generatedPrograms/ontology194/inputCsv/","edb_79_csv.csv").
+@mapping("edb_79",0,"arg_0","int").
+@mapping("edb_79",1,"arg_1","int").
+@mapping("edb_79",2,"arg_2","int").
+@input("edb_31").
+@bind("edb_31","csv","generatedPrograms/ontology194/inputCsv/","edb_31_csv.csv").
+@mapping("edb_31",0,"arg_0","int").
+@mapping("edb_31",1,"arg_1","int").
+@mapping("edb_31",2,"arg_2","int").
+@mapping("edb_31",3,"arg_3","int").
+@input("edb_45").
+@bind("edb_45","csv","generatedPrograms/ontology194/inputCsv/","edb_45_csv.csv").
+@mapping("edb_45",0,"arg_0","int").
+@mapping("edb_45",1,"arg_1","int").
+@mapping("edb_45",2,"arg_2","int").
+@mapping("edb_45",3,"arg_3","int").
+@input("edb_37").
+@bind("edb_37","csv","generatedPrograms/ontology194/inputCsv/","edb_37_csv.csv").
+@mapping("edb_37",0,"arg_0","int").
+@mapping("edb_37",1,"arg_1","int").
+@input("edb_41").
+@bind("edb_41","csv","generatedPrograms/ontology194/inputCsv/","edb_41_csv.csv").
+@mapping("edb_41",0,"arg_0","int").
+@mapping("edb_41",1,"arg_1","int").
+@mapping("edb_41",2,"arg_2","int").
+@mapping("edb_41",3,"arg_3","int").
+@input("edb_27").
+@bind("edb_27","csv","generatedPrograms/ontology194/inputCsv/","edb_27_csv.csv").
+@mapping("edb_27",0,"arg_0","int").
+@mapping("edb_27",1,"arg_1","int").
+@mapping("edb_27",2,"arg_2","int").
+qout_1(U0) :- qout_1_20_1(U0), qout_1_20_2(U0).
+qout_1_24_2_153_2(U0) :- qout_1_44_1(U0).
+qout_1_6_2(U0) :- qout_1_39_2(U0), qout_1_39_1(U0).
+qout_1_135_2(U0) :- qout_1_39_1_152_2(U0), qout_1_39_1_152_1(U0).
+qout_1_6_2(U0) :- qout_1_24_2(U0), qout_1_24_1(U0).
+qout_1_24_2_153_2(U0) :- qout_1_104_1(U0).
+qout_1_24_2(U0) :- qout_1_24_2_153_2(U0), qout_1_24_2_153_1(U0).
+qout_1_6_2(U0) :- qout_1_118_2(U0), qout_1_39_1(U0).
+qout_1_32_2(U0) :- qout_1_135_1_155_2(U0), qout_1_39_1(U0).
+qout_1_24_1(U0) :- qout_1_105_2(U0), qout_1_105_1(U0).
+qout_1(U0) :- qout_1_15_2(U0), qout_1_15_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_34_2(U0), qout_1_34_1(U0).
+qout_1_6_2(U0) :- qout_1_1_2(U0).
+qout_1(U0) :- qout_1_33_1(U0), qout_1_33_2(U0).
+qout_1_6_1(U0) :- qout_1_32_1(U0).
+qout_1_24_1(U0) :- qout_1_27_2(U0), qout_1_15_1(U0).
+qout_1_24_2_153_2(U0) :- qout_1_1_2(U0).
+qout_1_6_1(U0) :- qout_1_79_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_18_1(U0).
+qout_1(U0) :- qout_1_34_2(U0), qout_1_34_1(U0).
+qout_1_6_1(U0) :- qout_1_25_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_99_1(U0), qout_1_15_1(U0).
+qout_1_6_1(U0) :- qout_1_39_2(U0), qout_1_39_1(U0).
+qout_1_24_2_153_2(U0) :- qout_1_18_1(U0).
+qout_1_24_1(U0) :- qout_1_118_2(U0), qout_1_39_1(U0).
+qout_1_24_1(U0) :- qout_1_104_1(U0).
+qout_1_24_2_153_2(U0) :- qout_1_34_2(U0), qout_1_34_1(U0).
+qout_1(U0) :- qout_1_32_1(U0), qout_1_32_2(U0).
+qout_1_6_1(U0) :- qout_1_24_2(U0), qout_1_24_1(U0).
+qout_1_15_1(U0) :- qout_1_24_2_153_2(U0), qout_1_24_2_153_1(U0).
+qout_1_24_2_153_1(U0) :- edb_40(U1, U0).
+qout_1_24_1(U0) :- edb_40(U0, U1).
+qout_1_44_2(U0) :- qout_1_135_1_155_2(U0), qout_1_39_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_1_2(U0).
+qout_1_6_2(U0) :- qout_1_79_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_118_2(U0), qout_1_39_1(U0).
+qout_1_105_1(U0) :- qout_1_135_1_155_2(U0), qout_1_39_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_104_1(U0).
+qout_1_6_2(U0) :- qout_1_99_1(U0), qout_1_15_1(U0).
+qout_1(U0) :- qout_1_24_2(U0), qout_1_24_1(U0).
+qout_1_6_2(U0) :- qout_1_20_1(U0).
+qout_1(U0) :- qout_1_39_2(U0), qout_1_39_1(U0).
+qout_1_1_2(U0) :- qout_1_24_2_153_2(U0), qout_1_24_2_153_1(U0).
+qout_1_34_1(U0) :- qout_1_135_1_155_2(U0), qout_1_39_1(U0).
+qout_1_118_2(U0) :- qout_1_79_1_161_2(U0), qout_1_79_1_161_1(U0).
+qout_1_24_2_153_2(U0) :- qout_1_99_1(U0), qout_1_15_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_79_1(U0).
+qout_1_1_1(U0) :- qout_1_24_2(U0), qout_1_1_1_148_1(U0).
+qout_1_121_1(U0) :- qout_1_135_1_155_2(U0), qout_1_39_1(U0).
+qout_1_6_1(U0) :- edb_40(U0, U1).
+qout_1_24_1(U0) :- qout_1_1_2(U0).
+qout_1(U0) :- qout_1_99_1(U0), qout_1_15_1(U0).
+qout_1_6_1(U0) :- qout_1_34_2(U0), qout_1_34_1(U0).
+qout_1_135_1_155_2(U0) :- edb_54(U1, U2, U3, U0).
+qout_1_15_2(U0) :- qout_1_24_2_153_2(U0), qout_1_24_2_153_1(U0).
+qout_1(U0) :- qout_1_104_1(U0), qout_1_104_2(U0).
+qout_1_39_1(U0) :- qout_1_39_1_152_2(U0), qout_1_39_1_152_1(U0).
+qout_1_24_2_153_2(U0) :- qout_1_105_2(U0), qout_1_105_1(U0).
+qout_1_24_1(U0) :- qout_1_121_1(U0).
+qout_1_24_1(U0) :- qout_1_79_1(U0).
+qout_1_39_1_152_2(U0) :- qout_1_79_1_161_2(U0), qout_1_79_1_161_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_32_1(U0).
+qout_1_135_1(U0) :- qout_1_135_1_155_2(U0), qout_1_39_1(U0).
+qout_1_6_2(U0) :- qout_1_33_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_135_1(U0), qout_1_135_2(U0).
+qout_1_6_1(U0) :- qout_1_99_1(U0), qout_1_15_1(U0).
+qout_1_24_1(U0) :- qout_1_34_2(U0), qout_1_34_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_27_2(U0), qout_1_15_1(U0).
+qout_1_24_2_153_2(U0) :- qout_1_79_1(U0).
+qout_1_18_2(U0) :- qout_1_135_1_155_2(U0), qout_1_39_1(U0).
+qout_1(U0) :- qout_1_25_2(U0), qout_1_25_1(U0).
+qout_1_24_2_153_2(U0) :- qout_1_135_1(U0), qout_1_135_2(U0).
+qout_1_24_2_153_1(U0) :- qout_1_25_1(U0).
+qout_1_6_1(U0) :- qout_1_20_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_24_2(U0), qout_1_24_1(U0).
+qout_1_20_2(U0) :- qout_1_135_1_155_2(U0), qout_1_39_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_44_1(U0).
+qout_1_6_1(U0) :- qout_1_33_1(U0).
+qout_1_105_2(U0) :- qout_1_135_1_155_2(U0), qout_1_39_1(U0).
+qout_1_99_1(U0) :- qout_1_24_2_153_2(U0), qout_1_24_2_153_1(U0).
+qout_1_24_2_153_2(U0) :- qout_1_27_2(U0), qout_1_15_1(U0).
+qout_1_79_1(U0) :- qout_1_79_1_161_2(U0), qout_1_79_1_161_1(U0).
+qout_1(U0) :- qout_1_121_1(U0), qout_1_121_2(U0).
+qout_1_33_1(U0) :- qout_1_79_1_161_2(U0), qout_1_79_1_161_1(U0).
+qout_1_18_1(U0) :- qout_1_135_1_155_2(U0), qout_1_39_1(U0).
+qout_1_39_2(U0) :- qout_1_79_1_161_2(U0), qout_1_79_1_161_1(U0).
+qout_1_24_1(U0) :- qout_1_33_1(U0).
+qout_1_6_1(U0) :- qout_1_105_2(U0), qout_1_105_1(U0).
+qout_1_24_2_153_2(U0) :- qout_1_20_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_15_2(U0), qout_1_15_1(U0).
+qout_1_1_1_148_1(U0) :- qout_1_24_2_153_2(U0), qout_1_24_2_153_1(U0).
+qout_1_6_1(U0) :- qout_1_27_2(U0), qout_1_15_1(U0).
+qout_1_6_2(U0) :- qout_1_135_1(U0), qout_1_135_2(U0).
+qout_1(U0) :- qout_1_1_2(U0).
+qout_1_6_2(U0) :- qout_1_105_2(U0), qout_1_105_1(U0).
+qout_1_6_1(U0) :- qout_1_121_1(U0).
+qout_1(U0) :- qout_1_44_1(U0), qout_1_44_2(U0).
+qout_1_6_2(U0) :- qout_1_25_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_20_1(U0).
+qout_1_24_1(U0) :- qout_1_20_1(U0).
+qout_1_6_2(U0) :- qout_1_15_2(U0), qout_1_15_1(U0).
+qout_1_79_2(U0) :- qout_1_79_1_161_2(U0), qout_1_79_1_161_1(U0).
+qout_1_6_2(U0) :- qout_1_34_2(U0), qout_1_34_1(U0).
+qout_1(U0) :- qout_1_1_1(U0), qout_1_1_2(U0).
+qout_1_34_2(U0) :- qout_1_135_1_155_2(U0), qout_1_39_1(U0).
+qout_1_24_2_153_2(U0) :- qout_1_33_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_105_2(U0), qout_1_105_1(U0).
+qout_1(U0) :- qout_1_135_1(U0), qout_1_135_2(U0).
+qout_1_44_1(U0) :- qout_1_135_1_155_2(U0), qout_1_39_1(U0).
+qout_1_6_1(U0) :- qout_1_44_1(U0).
+qout_1_6_2(U0) :- qout_1_121_1(U0).
+qout_1_20_1(U0) :- qout_1_135_1_155_2(U0), qout_1_39_1(U0).
+qout_1_121_2(U0) :- qout_1_135_1_155_2(U0), qout_1_39_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_33_1(U0).
+qout_1_25_2(U0) :- qout_1_24_2_153_2(U0), qout_1_24_2_153_1(U0).
+qout_1_24_2_153_2(U0) :- qout_1_32_1(U0).
+qout_1_24_1(U0) :- qout_1_99_1(U0), qout_1_15_1(U0).
+qout_1(U0) :- qout_1_79_2(U0), qout_1_79_1(U0).
+qout_1(U0) :- qout_1_18_1(U0), qout_1_18_2(U0).
+qout_1_24_2_153_2(U0) :- qout_1_24_2(U0), qout_1_24_1(U0).
+qout_1_24_2_153_2(U0) :- qout_1_39_2(U0), qout_1_39_1(U0).
+qout_1_39_1_152_1(U0) :- edb_5(U1, U2, U3, U0).
+qout_1_6_2(U0) :- qout_1_104_1(U0).
+qout_1_27_2(U0) :- qout_1_24_2_153_2(U0), qout_1_24_2_153_1(U0).
+qout_1_24_1(U0) :- qout_1_18_1(U0).
+qout_1_104_1(U0) :- qout_1_24_2(U0), qout_1_1_1_148_1(U0).
+qout_1_79_1_161_2(U0) :- qout_1_1_1(U0), qout_1_1_2(U0).
+qout_1_6_1(U0) :- qout_1_135_1(U0), qout_1_135_2(U0).
+qout_1_6_1(U0) :- qout_1_18_1(U0).
+qout_1_24_1(U0) :- qout_1_15_2(U0), qout_1_15_1(U0).
+qout_1(U0) :- qout_1_27_2(U0), qout_1_15_1(U0).
+qout_1_24_1(U0) :- qout_1_135_1(U0), qout_1_135_2(U0).
+qout_1_6_2(U0) :- edb_40(U0, U1).
+qout_1_25_1(U0) :- qout_1_24_2_153_2(U0), qout_1_24_2_153_1(U0).
+qout_1_6_2(U0) :- qout_1_27_2(U0), qout_1_15_1(U0).
+qout_1_6_1(U0) :- qout_1_15_2(U0), qout_1_15_1(U0).
+qout_1_24_2_153_2(U0) :- qout_1_118_2(U0), qout_1_39_1(U0).
+qout_1(U0) :- qout_1_6_2(U0), qout_1_6_1(U0).
+qout_1_6_2(U0) :- qout_1_44_1(U0).
+qout_1_104_2(U0) :- qout_1_24_2(U0), qout_1_1_1_148_1(U0).
+qout_1(U0) :- edb_40(U0, U1).
+qout_1_24_2_153_2(U0) :- qout_1_25_1(U0).
+qout_1(U0) :- qout_1_105_2(U0), qout_1_105_1(U0).
+qout_1_6_2(U0) :- qout_1_32_1(U0).
+qout_1_6_1(U0) :- qout_1_118_2(U0), qout_1_39_1(U0).
+qout_1_24_1(U0) :- qout_1_44_1(U0).
+qout_1_33_2(U0) :- qout_1_79_1_161_2(U0), qout_1_79_1_161_1(U0).
+qout_1_24_2_153_2(U0) :- edb_40(U0, U1).
+qout_1_79_1_161_1(U0) :- qout_1_1_1(U0), qout_1_1_2(U0).
+qout_1_24_1(U0) :- qout_1_25_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_39_2(U0), qout_1_39_1(U0).
+qout_1_24_1(U0) :- qout_1_32_1(U0).
+qout_1_24_1(U0) :- qout_1_39_2(U0), qout_1_39_1(U0).
+qout_1_6_1(U0) :- qout_1_104_1(U0).
+qout_1_24_2_153_2(U0) :- qout_1_121_1(U0).
+qout_1_24_2_153_1(U0) :- qout_1_121_1(U0).
+qout_1_24_2_153_2(U0) :- qout_1_15_2(U0), qout_1_15_1(U0).
+qout_1_6_2(U0) :- qout_1_18_1(U0).
+qout_1_6_1(U0) :- qout_1_1_2(U0).
+qout_1_32_1(U0) :- qout_1_135_1_155_2(U0), qout_1_39_1(U0).
+qout_1(U0) :- qout_1_118_2(U0), qout_1_39_1(U0).

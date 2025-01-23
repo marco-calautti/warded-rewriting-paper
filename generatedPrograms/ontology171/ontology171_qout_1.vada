@@ -1,0 +1,39 @@
+qout_1_63_2(U0) :- edb_53(U0, U1, U2, U3).
+qout_1_91_2(U0, U1) :- edb_53(U0, U1, U2, U3).
+qout_1_44_1(U0, U0) :- qout_1_33_1(U0), qout_1_33_2(U0).
+qout_1(U0, U1, U2, U3) :- edb_53(U0, U1, U2, U3).
+qout_1_55_2(U0) :- qout_1_33_1(U0), qout_1_33_2(U0).
+qout_1_44_1(U0, U1) :- edb_53(U0, U1, U2, U3).
+qout_1_33_1(U0) :- edb_53(U0, U1, U2, U3).
+qout_1_55_2(U0) :- edb_53(U0, U1, U2, U3).
+qout_1_44_1(U0, U1) :- qout_1_63_2(U0), qout_1_63_1(U0, U1).
+qout_1(U0, U1, U1, U1) :- qout_1_44_2(U0), qout_1_44_1(U0, U1).
+qout_1_91_2(U0, U1) :- qout_1_55_2(U0), qout_1_55_1(U0, U1).
+qout_1(U0, U1, U1, U1) :- qout_1_91_2(U0, U1), qout_1_91_1(U0).
+qout_1_44_2(U0) :- qout_1_91_1(U0).
+qout_1_91_2(U0, U0) :- qout_1_33_1(U0), qout_1_33_2(U0).
+qout_1_44_2(U0) :- qout_1_55_2(U0).
+qout_1_44_2_233_2(U0) :- edb_53(U0, U1, U2, U3).
+qout_1(U0, U0, U0, U0) :- qout_1_33_1(U0), qout_1_33_2(U0).
+qout_1_33_2(U0) :- edb_53(U0, U1, U2, U3).
+qout_1_63_2(U0) :- qout_1_33_1(U0), qout_1_33_2(U0).
+qout_1_44_2(U0) :- qout_1_63_2(U0), qout_1_44_2_233_2(U0).
+qout_1_55_1(U0, U1) :- qout_1_63_2(U0), qout_1_63_1(U0, U1).
+qout_1_91_1(U0) :- qout_1_33_1(U0), qout_1_33_2(U0).
+qout_1_44_1(U0, U1) :- qout_1_91_2(U0, U1), qout_1_91_1(U0).
+qout_1_91_1(U0) :- qout_1_55_2(U0).
+qout_1_91_2(U0, U1) :- qout_1_63_2(U0), qout_1_63_1(U0, U1).
+qout_1_55_1(U0, U1) :- edb_53(U0, U1, U2, U3).
+qout_1_91_1(U0) :- edb_53(U0, U1, U2, U3).
+qout_1_44_2(U0) :- qout_1_33_1(U0), qout_1_33_2(U0).
+qout_1(U0, U1, U1, U1) :- qout_1_63_2(U0), qout_1_63_1(U0, U1).
+qout_1_63_1(U0, U1) :- edb_53(U0, U1, U2, U3).
+qout_1_55_2(U0) :- qout_1_63_2(U0), qout_1_44_2_233_2(U0).
+qout_1(U0, U1, U1, U1) :- qout_1_55_2(U0), qout_1_55_1(U0, U1).
+qout_1_44_2_233_2(U0) :- qout_1_33_1(U0), qout_1_33_2(U0).
+qout_1(U0, U1, U1, U1) :- edb_53(U0, U1, U2, U3).
+qout_1_91_1(U0) :- qout_1_63_2(U0), qout_1_44_2_233_2(U0).
+qout_1_44_2(U0) :- edb_53(U0, U1, U2, U3).
+qout_1_63_1(U0, U0) :- qout_1_33_1(U0), qout_1_33_2(U0).
+qout_1_55_1(U0, U0) :- qout_1_33_1(U0), qout_1_33_2(U0).
+qout_1_44_1(U0, U1) :- qout_1_55_2(U0), qout_1_55_1(U0, U1).

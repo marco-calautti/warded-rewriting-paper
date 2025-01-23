@@ -1,0 +1,16 @@
+qout_9(U0, U1) :- edb_6(U0, U1).
+qout_4(U0, U0) :- edb_6(U0, U1).
+qout_9(U0, U0) :- edb_6(U0, U1).
+qout_6(U0, U0) :- edb_6(U0, U1).
+qout_5(U0, U0, U0) :- edb_6(U0, U1).
+qout_7(U0, U0) :- edb_6(U0, U1).
+qout_8(U0, U0, U0) :- edb_6(U0, U1).
+qout_10(U0, U0) :- edb_6(U0, U1).
+qout_4(U0, U1) :- edb_6(U0, U1).
+qout_1(U0, U0) :- edb_6(U0, U1).
+qout_3(U0, U1) :- edb_6(U0, U1).
+qout_2(U0, U0) :- edb_6(U0, U1).
+qout_2(U0, U1) :- edb_6(U0, U1).
+qout_3(U0, U0) :- edb_6(U0, U1).
+qout_1(U0, U1) :- edb_6(U0, U1).
+qout_6(U0, U1) :- edb_6(U0, U1).

@@ -1,0 +1,4 @@
+qout_1_83_1(U0) :- edb_35(U0, U1, U2, U3, U4).
+qout_1(U0, U1, U1, U1, U1) :- qout_1_83_1(U0), qout_1_83_2(U0, U1).
+qout_1_83_2(U0, U1) :- edb_35(U0, U1, U2, U3, U4).
+qout_1(U0, U1, U1, U1, U1) :- edb_35(U0, U1, U2, U3, U4).

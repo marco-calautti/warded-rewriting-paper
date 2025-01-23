@@ -1,0 +1,28 @@
+#Generated Ontology 36
+#Wed May 22 12:55:59 EET 2024
+NumberOfRecordsCSV=100000
+NumberOfHarmfulHarmfulJoins=10
+AverageVarsInPredicate=3
+NumberOfDangerousRules=100
+AverageSelectivity=3
+NumberOfLinearRules=100
+NumberOfSelectionConditions=0
+IsShy=false
+NumberOfExistentialRules=100
+ProgramName=ontology36
+AverageInputOutputSequenceLength=10
+NumberOfLeftJoinRecursions=3
+AverageEVarsInRule=2
+NumberOfOutputPredicates=1
+AverageRecursionLength=60
+NumberOfRightJoinRecursions=3
+NumberOfInputPredicates=100
+NumberOfHarmlessHarmlessJoinsWithWard=0
+NumberOfLeftRightJoinRecursions=60
+IsGuarded=false
+VarianceEVarsInRule=1.0
+VarianceVarsInPredicate=1.0
+NumberOfHarmlessHarmlessJoinsWithoutWard=10
+NumberOfLinearRecursions=0
+NumberOfHarmlessHarmfulJoins=10
+NumberOfInputOutputSequences=10

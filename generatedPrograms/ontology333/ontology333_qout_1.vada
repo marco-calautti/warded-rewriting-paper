@@ -1,0 +1,9 @@
+qout_1(U0) :- qout_1_28_2(U0), qout_1_28_1(U0).
+qout_1(U0) :- edb_26(U0, U1).
+qout_1(U0) :- qout_1_12_2(U0), qout_1_12_1(U0).
+qout_1_28_2(U0) :- edb_26(U0, U1).
+qout_1_12_1(U0) :- edb_26(U0, U1).
+qout_1_12_2(U0) :- qout_1_28_1(U0).
+qout_1_12_2(U0) :- edb_26(U0, U1).
+qout_1_12_1(U0) :- qout_1_28_1(U0).
+qout_1_28_1(U0) :- edb_26(U0, U1).

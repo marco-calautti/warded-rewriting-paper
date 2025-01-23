@@ -1,0 +1,113 @@
+@output("qout_1").
+@bind("qout_1","csv","generatedPrograms/ontology385/outputCsv/","qout_1_csv.csv").
+@input("edb_22").
+@bind("edb_22","csv","generatedPrograms/ontology385/inputCsv/","edb_22_csv.csv").
+@mapping("edb_22",0,"arg_0","int").
+@mapping("edb_22",1,"arg_1","int").
+@mapping("edb_22",2,"arg_2","int").
+@input("edb_75").
+@bind("edb_75","csv","generatedPrograms/ontology385/inputCsv/","edb_75_csv.csv").
+@mapping("edb_75",0,"arg_0","int").
+@mapping("edb_75",1,"arg_1","int").
+@mapping("edb_75",2,"arg_2","int").
+@input("edb_83").
+@bind("edb_83","csv","generatedPrograms/ontology385/inputCsv/","edb_83_csv.csv").
+@mapping("edb_83",0,"arg_0","int").
+@mapping("edb_83",1,"arg_1","int").
+@mapping("edb_83",2,"arg_2","int").
+@input("edb_29").
+@bind("edb_29","csv","generatedPrograms/ontology385/inputCsv/","edb_29_csv.csv").
+@mapping("edb_29",0,"arg_0","int").
+@mapping("edb_29",1,"arg_1","int").
+@mapping("edb_29",2,"arg_2","int").
+@input("edb_64").
+@bind("edb_64","csv","generatedPrograms/ontology385/inputCsv/","edb_64_csv.csv").
+@mapping("edb_64",0,"arg_0","int").
+@input("edb_87").
+@bind("edb_87","csv","generatedPrograms/ontology385/inputCsv/","edb_87_csv.csv").
+@mapping("edb_87",0,"arg_0","int").
+@mapping("edb_87",1,"arg_1","int").
+@mapping("edb_87",2,"arg_2","int").
+@input("edb_13").
+@bind("edb_13","csv","generatedPrograms/ontology385/inputCsv/","edb_13_csv.csv").
+@mapping("edb_13",0,"arg_0","int").
+@mapping("edb_13",1,"arg_1","int").
+@mapping("edb_13",2,"arg_2","int").
+@input("edb_46").
+@bind("edb_46","csv","generatedPrograms/ontology385/inputCsv/","edb_46_csv.csv").
+@mapping("edb_46",0,"arg_0","int").
+@mapping("edb_46",1,"arg_1","int").
+@mapping("edb_46",2,"arg_2","int").
+@input("edb_48").
+@bind("edb_48","csv","generatedPrograms/ontology385/inputCsv/","edb_48_csv.csv").
+@mapping("edb_48",0,"arg_0","int").
+@mapping("edb_48",1,"arg_1","int").
+@mapping("edb_48",2,"arg_2","int").
+@input("edb_89").
+@bind("edb_89","csv","generatedPrograms/ontology385/inputCsv/","edb_89_csv.csv").
+@mapping("edb_89",0,"arg_0","int").
+@mapping("edb_89",1,"arg_1","int").
+@input("edb_66").
+@bind("edb_66","csv","generatedPrograms/ontology385/inputCsv/","edb_66_csv.csv").
+@mapping("edb_66",0,"arg_0","int").
+@mapping("edb_66",1,"arg_1","int").
+@mapping("edb_66",2,"arg_2","int").
+@input("edb_4").
+@bind("edb_4","csv","generatedPrograms/ontology385/inputCsv/","edb_4_csv.csv").
+@mapping("edb_4",0,"arg_0","int").
+@mapping("edb_4",1,"arg_1","int").
+@mapping("edb_4",2,"arg_2","int").
+@mapping("edb_4",3,"arg_3","int").
+@input("edb_47").
+@bind("edb_47","csv","generatedPrograms/ontology385/inputCsv/","edb_47_csv.csv").
+@mapping("edb_47",0,"arg_0","int").
+@mapping("edb_47",1,"arg_1","int").
+@mapping("edb_47",2,"arg_2","int").
+@mapping("edb_47",3,"arg_3","int").
+@input("edb_38").
+@bind("edb_38","csv","generatedPrograms/ontology385/inputCsv/","edb_38_csv.csv").
+@mapping("edb_38",0,"arg_0","int").
+@mapping("edb_38",1,"arg_1","int").
+@mapping("edb_38",2,"arg_2","int").
+@mapping("edb_38",3,"arg_3","int").
+@mapping("edb_38",4,"arg_4","int").
+@input("edb_96").
+@bind("edb_96","csv","generatedPrograms/ontology385/inputCsv/","edb_96_csv.csv").
+@mapping("edb_96",0,"arg_0","int").
+@mapping("edb_96",1,"arg_1","int").
+@mapping("edb_96",2,"arg_2","int").
+@mapping("edb_96",3,"arg_3","int").
+@mapping("edb_96",4,"arg_4","int").
+@input("edb_50").
+@bind("edb_50","csv","generatedPrograms/ontology385/inputCsv/","edb_50_csv.csv").
+@mapping("edb_50",0,"arg_0","int").
+@mapping("edb_50",1,"arg_1","int").
+@mapping("edb_50",2,"arg_2","int").
+@mapping("edb_50",3,"arg_3","int").
+@input("edb_67").
+@bind("edb_67","csv","generatedPrograms/ontology385/inputCsv/","edb_67_csv.csv").
+@mapping("edb_67",0,"arg_0","int").
+@mapping("edb_67",1,"arg_1","int").
+@mapping("edb_67",2,"arg_2","int").
+@mapping("edb_67",3,"arg_3","int").
+@mapping("edb_67",4,"arg_4","int").
+@input("edb_17").
+@bind("edb_17","csv","generatedPrograms/ontology385/inputCsv/","edb_17_csv.csv").
+@mapping("edb_17",0,"arg_0","int").
+@mapping("edb_17",1,"arg_1","int").
+@input("edb_56").
+@bind("edb_56","csv","generatedPrograms/ontology385/inputCsv/","edb_56_csv.csv").
+@mapping("edb_56",0,"arg_0","int").
+@mapping("edb_56",1,"arg_1","int").
+@mapping("edb_56",2,"arg_2","int").
+@mapping("edb_56",3,"arg_3","int").
+qout_1(U0) :- edb_46(U0, U1, U2).
+qout_1_42_2(U0) :- qout_1_42_2_179_1(U0), qout_1_42_2_179_2(U0).
+qout_1_42_2_179_1(U0) :- qout_1_42_2_179_1_222_2(U0), qout_1_42_2_179_1_222_1(U0).
+qout_1_42_1(U0) :- qout_1_42_2_179_1(U0), qout_1_42_2_179_2(U0).
+qout_1_42_2_179_1_222_1(U0) :- qout_1_42_2_179_1(U0).
+qout_1_42_2_179_1_222_2(U0) :- edb_4(U1, U2, U3, U0).
+qout_1_42_2_179_1_222_1(U0) :- qout_1_42_1(U0), qout_1_42_2(U0).
+qout_1_42_2_179_1_222_1(U0) :- edb_46(U0, U1, U2).
+qout_1_42_2_179_2(U0) :- qout_1_42_2_179_1_222_2(U0), qout_1_42_2_179_1_222_1(U0).
+qout_1(U0) :- qout_1_42_1(U0), qout_1_42_2(U0).

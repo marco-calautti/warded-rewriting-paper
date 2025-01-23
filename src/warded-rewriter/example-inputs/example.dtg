@@ -1,0 +1,81 @@
+// Example of a rule: HEAD_ATOM :- BODY_ATOM1,...,BODY_ATOMn
+// Each atom is of the form <predicate>(<var>,...,<var>), where <var> is a variable specified as ?variablename.
+// Existential variables of a rule are implicitly the variables appearing in the head but not in the body of the rule.
+
+// It is possible to optionally specify which predicates are edb (i.e., they are the only ones that can take values from external sources)
+// using the @edb directive. For example
+// @edb Offer .
+
+// If no @edb directives are specified, all predicates are assumed to be able to take data from external sources.
+
+Person(?X) :- PhysicalPerson(?X).
+Transaction(?X) :- Offer(?X).
+usesBroker(?X, ?Y) :- tradesOnBehalfOf(?Y, ?X).
+tradesOnBehalfOf(?Y, ?X) :- usesBroker(?X, ?Y).
+Company(?X) :- hasStock(?X, ?Y).
+StockExchangeList(?Y) :- isListedIn(?X, ?Y).
+Stock(?Y) :- hasStock(?X, ?Y).
+Stock(?X) :- belongsToCompany(?X, ?Y).
+Stock(?Y) :- listsStock(?X, ?Y).
+isExecutedFor(?X, ?Y) :- Transaction(?X).
+Transaction(?X) :- isExecutedFor(?X, ?Y).
+LegalPerson(?X) :- Company(?X).
+Address(?Y) :- hasAddress(?X, ?Y).
+inverseofhasAddress(?X, ?Y) :- hasAddress(?Y, ?X).
+hasAddress(?Y, ?X) :- inverseofhasAddress(?X, ?Y).
+Person(?X) :- hasAddress(?X, ?Y).
+StockExchangeMember(?X) :- StockBroker(?X).
+FinantialInstrument(?X) :- Stock(?X).
+FinantialInstrument(?Y) :- involvesInstrument(?X, ?Y).
+StockTrader(?X) :- Trader(?X).
+Trader(?X) :- StockTrader(?X).
+Address(?X) :- inverseofhasAddress(?X, ?Y).
+isExecutedBy(?X, ?Y) :- Transaction(?X).
+Person(?Y) :- inverseofhasAddress(?X, ?Y).
+StockBroker(?X) :- Dealer(?X).
+involvesInstrument(?X, ?Y) :- Transaction(?X).
+Stock(?X) :- isListedIn(?X, ?Y).
+Company(?Y) :- belongsToCompany(?X, ?Y).
+hasAddress(?X, ?Y) :- Person(?X).
+Person(?X) :- LegalPerson(?X).
+Transaction(?X) :- isExecutedBy(?X, ?Y).
+StockBroker(?X) :- StockTrader(?X).
+Dealer(?X) :- Trader(?X).
+Trader(?X) :- Dealer(?X).
+tradesOnBehalfOf(?X, ?Y) :- StockBroker(?X).
+LegalPerson(?X) :- PhysicalPerson(?X).
+Transaction(?X) :- involvesInstrument(?X, ?Y).
+isTradedIn(?X, ?Y) :- involvesInstrument(?Y, ?X).
+involvesInstrument(?Y, ?X) :- isTradedIn(?X, ?Y).
+Person(?X) :- Investor(?X).
+Transaction(?X) :- Acquisition(?X).
+isListedIn(?X, ?Y) :- listsStock(?Y, ?X).
+listsStock(?Y, ?X) :- isListedIn(?X, ?Y).
+StockExchangeMember(?Y) :- isExecutedBy(?X, ?Y).
+belongsToCompany(?X, ?Y) :- Stock(?X).
+Transaction(?Y) :- isTradedIn(?X, ?Y).
+isListedIn(?X, ?Y) :- Stock(?X).
+StockBroker(?X) :- Trader(?X).
+Person(?X) :- StockExchangeMember(?X).
+belongsToCompany(?X, ?Y) :- hasStock(?Y, ?X).
+hasStock(?Y, ?X) :- belongsToCompany(?X, ?Y).
+inverseofhasAddress(?X, ?Y) :- Address(?X).
+Investor(?Y) :- isExecutedFor(?X, ?Y).
+
+// Queries are specified as normal rules
+
+Q1(?A) :- StockExchangeMember(?A).
+Q2(?A, ?B) :- Person(?A), hasStock(?A, ?B), Stock(?B).
+Q3(?A,?B,?C) :- FinantialInstrument(?A), belongsToCompany(?A,?B), Company(?B), hasStock(?B,?C), Stock(?C).
+Q4(?A, ?B, ?C) :- Person(?A), hasStock(?A, ?B), Stock(?B), isListedIn(?B, ?C), StockExchangeList(?C).
+Q5(?A, ?B, ?C, ?D) :- FinantialInstrument(?A), belongsToCompany(?A, ?B), Company(?B), hasStock(?B, ?C), Stock(?C), isListedIn(?B, ?D), StockExchangeList(?D).
+
+// You can specify which queries you want to rewrite w.r.t. the above set of TGDs.. for this you need an *exact* copy of the head of one of the above rules
+
+?-Q1(?A).
+?-Q2(?A,?B).
+?-Q3(?A,?B,?C).
+?-Q4(?A,?B,?C).
+?-Q5(?A,?B,?C,?D).
+
+

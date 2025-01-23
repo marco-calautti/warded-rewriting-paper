@@ -1,0 +1,4 @@
+qout_1(U0, U1) :- edb_80(U0, U1, U2).
+qout_1_7_2(U0) :- edb_80(U1, U2, U0).
+qout_1_7_1(U0) :- edb_80(U0, U1, U2).
+qout_1(U0, U0) :- qout_1_7_2(U0), qout_1_7_1(U0).

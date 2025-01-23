@@ -1,0 +1,16 @@
+qout_1(U0, U1, U2) :- qout_1_2_2(U0), qout_1_1_1(U0, U1, U2).
+qout_1(U0, U1, U2) :- qout_1_1_1(U0, U1, U2), qout_1_7_1(U0).
+qout_1_7_1(U0) :- edb_63(U0).
+qout_1_5_1(U0) :- edb_15(U0).
+qout_1_2_2(U0) :- edb_34(U1, U2, U0).
+qout_1_3_2(U0) :- edb_39(U1, U0).
+qout_1(U0, U1, U2) :- qout_1_6_1(U0), qout_1_1_1(U0, U1, U2).
+qout_1(U0, U1, U2) :- qout_1_1_2(U0), qout_1_1_1(U0, U1, U2).
+qout_1(U0, U1, U2) :- qout_1_1_1(U0, U1, U2), qout_1_3_2(U0).
+qout_1_4_1(U0) :- edb_11(U1, U0).
+qout_1_1_2(U0) :- edb_34(U0, U1, U2).
+qout_1_6_1(U0) :- edb_9(U1, U2, U0).
+qout_1(U0, U1, U1) :- edb_34(U0, U1, U2).
+qout_1_1_1(U0, U1, U2) :- edb_34(U0, U1, U2).
+qout_1(U0, U1, U2) :- qout_1_4_1(U0), qout_1_1_1(U0, U1, U2).
+qout_1(U0, U1, U2) :- qout_1_5_1(U0), qout_1_1_1(U0, U1, U2).

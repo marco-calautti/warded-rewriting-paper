@@ -1,0 +1,4 @@
+qout_1_6_2(U0) :- edb_59(U0, U1).
+qout_1_6_1(U0) :- edb_59(U0, U1).
+qout_1(U0) :- edb_59(U0, U1).
+qout_1(U0) :- qout_1_6_2(U0), qout_1_6_1(U0).

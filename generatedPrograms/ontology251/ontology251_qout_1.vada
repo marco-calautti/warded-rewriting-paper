@@ -1,0 +1,2 @@
+qout_1(U0, U1, U2) :- edb_6(U0, U1, U2).
+qout_1(U0, U1, U1) :- edb_6(U0, U1, U2).
