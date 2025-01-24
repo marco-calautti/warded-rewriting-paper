@@ -1,4 +1,4 @@
-package org.unimi;
+package org.warded;
 
 import java.util.Collection;
 import java.util.Collections;

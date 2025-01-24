@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.unimi</groupId>
+  <groupId>org.warded</groupId>
   <artifactId>reasoners-runner</artifactId>
   <version>1.0-SNAPSHOT</version>
 
@@ -26,7 +26,7 @@
     </dependency>
 
     <dependency>
-      <groupId>org.unimi</groupId>
+      <groupId>org.warded</groupId>
       <artifactId>warded-rewriter</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
@@ -171,7 +171,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>org.unimi.App</mainClass>
+              <mainClass>org.warded.App</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -198,7 +198,7 @@
       <configuration>
         <archive>
           <manifest>
-            <mainClass>org.unimi.App</mainClass>
+            <mainClass>org.warded.App</mainClass>
           </manifest>
         </archive>
         <descriptorRefs>

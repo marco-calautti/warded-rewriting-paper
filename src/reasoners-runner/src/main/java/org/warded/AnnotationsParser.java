@@ -1,4 +1,4 @@
-package org.unimi;
+package org.warded;
 
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 import org.apache.commons.lang3.tuple.Pair;
 import org.deri.iris.api.basics.IPredicate;
 import org.deri.iris.factory.Factory;
-import org.unimi.Annotation.AnnotationType;
+import org.warded.Annotation.AnnotationType;
 
 
 public class AnnotationsParser {

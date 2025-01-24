@@ -1,4 +1,4 @@
-package org.unimi;
+package org.warded;
 
 import static org.junit.Assert.assertTrue;
 

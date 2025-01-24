@@ -1,4 +1,4 @@
-package org.unimi;
+package org.warded;
 
 public class InvalidAnnotationSyntaxException extends Exception{
 

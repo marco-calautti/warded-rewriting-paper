@@ -1,4 +1,4 @@
-package org.unimi;
+package org.warded;
 
 import org.deri.iris.api.basics.IPredicate;
 
