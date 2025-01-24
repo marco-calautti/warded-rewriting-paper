@@ -10,7 +10,7 @@ The algorithm uses a stripped down version of the [IRIS library](https://bitbuck
 
 ## How to use
 
-See the [examples](https://gitlab.com/mcalautti/warded-rewriter/-/tree/main/warded-rewriter/example-inputs) on how to format a set of TGDs together with queries to rewrite in a dtg file.
+See the examples on how to format a set of TGDs together with queries to rewrite in a dtg file.
 
 ### Per-query rewriting
 
